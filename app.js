@@ -16,7 +16,7 @@ class App extends React.Component{
             {(this.state.isLogged) && this.state.details.map(detail=>(
                 <div key={detail.id} className="person">
                     <h1>{detail.name}</h1>
-                    <p>{detail.age}</p>
+                    <p>age:{detail.age}</p>
                 </div>
             ))}
             </div>
